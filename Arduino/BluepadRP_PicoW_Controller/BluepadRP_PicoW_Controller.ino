@@ -6,7 +6,7 @@ void setup() {
   Serial.begin(115200);
   delay(1500);
 
-  Serial.println("Bluepad-RP PS4 controller test");
+  Serial.println("BluepadRP-PicoW PS4 controller test");
   Serial.println("Put the PS4 controller into pairing mode: hold SHARE + PS.");
 
   if (!bluepad.begin()) {

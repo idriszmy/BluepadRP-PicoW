@@ -1,4 +1,4 @@
-# Bluepad-RP
+# BluepadRP-PicoW
 
 Experimental Arduino support for using Bluetooth game controllers with the
 Raspberry Pi Pico W and Raspberry Pi Pico 2 W.
@@ -22,7 +22,7 @@ axes, D-pad and button state to the Arduino Serial Monitor.
 
 ## First test
 
-1. Open `Arduino/Bluepad_RP/Bluepad_RP.ino`.
+1. Open `Arduino/BluepadRP_PicoW_Controller/BluepadRP_PicoW_Controller.ino`.
 2. Select **Raspberry Pi Pico W** or **Raspberry Pi Pico 2 W**.
 3. Enable the Bluetooth stack from the Arduino IDE Tools menu.
 4. Upload the sketch and open Serial Monitor at 115200 baud.
@@ -39,7 +39,7 @@ parser.
 
 ## Name and upstream attribution
 
-Bluepad-RP is the name of this Raspberry Pi RP2040/RP2350 Arduino integration.
+BluepadRP-PicoW is the name of this Raspberry Pi RP2040/RP2350 Arduino integration.
 It is not an official Bluepad32 project and is not affiliated with its author.
 
 [Bluepad32](https://github.com/ricardoquesada/bluepad32) is the official name of
